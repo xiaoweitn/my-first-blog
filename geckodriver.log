@@ -307,3 +307,7 @@ update@XPIProvider.jsm:2074:13
 addToDatabase@XPIDatabase.jsm:2278:10
 install@XPIInstall.jsm:4320:27
 update@XPIProvider.jsm:2074:13
+1589794360925	Marionette	INFO	Stopped listening on port 50654
+1589794362492	Marionette	INFO	Stopped listening on port 50723
+1589794364200	Marionette	INFO	Stopped listening on port 50791
+1589794366259	Marionette	INFO	Stopped listening on port 50866

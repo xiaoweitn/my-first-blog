@@ -1,24 +1,47 @@
 .page-header {
+    /*
     background-color: #272727;
+    */
+    background: url(/static/images/hero-bg.jpg) center;
+    background-size: cover;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
+    transition: all 0.5s;
+    z-index: 997;
+    position: relative;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
-    font-size: 30pt;
+    font-size: 25pt;
     text-decoration: none;
+}
+
+.page-header h1 :after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 10px;
+    left: 50%;
+    position: absolute;
+    background: #2dc997;
+    transition: width 0.5s ease 0s, left 0.5s ease 0s;
+    width: 0;
+}
+
+.page-header h1 :hover:after {
+    width: 100%; 
+    left: 0; 
 }
 
 .content {
     margin-left: 40px;
-    /*
-    background-color: #85DCB8;
-    */
 }
 
 h1, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
 }
 
 h2 {
