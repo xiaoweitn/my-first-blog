@@ -5,7 +5,7 @@
     background: url(/static/images/hero-bg.jpg) center;
     background-size: cover;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    padding: 80px 80px 80px 160px;
     transition: all 0.5s;
     z-index: 997;
     position: relative;
@@ -65,7 +65,7 @@ h2 {
     float: right;
     font-size: 15pt;
     margin-right: 5px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .post {
@@ -78,4 +78,8 @@ h2 {
 
 .comment {
     margin: 20px 0px 20px 20px;
+}
+
+.body {
+    background: linear-gradient(to bottom, #eeeeee 0%,#eeeeee 100%);
 }
