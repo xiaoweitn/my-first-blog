@@ -4,7 +4,7 @@
     margin-top: 0;
     padding: 80px 80px 80px 160px;
     transition: all 0.5s;
-    z-index: 997;
+    z-index: 3;
     position: relative;
 }
 
@@ -86,9 +86,10 @@ h2 {
       }
 }
 
-.body {
+.body {    
     background-color: #ece9e3;
     position: relative;
+    z-index: 1;
 }
 .sliding-background {
     background-image: url(http://scarbroughstudios.com/img/codepen.svg);
@@ -97,9 +98,9 @@ h2 {
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 200%;
+    height: 150%;
     width: 100%;
-    z-index: 1;
+    z-index: -1;
     animation: slide 10s linear infinite;
 }
 
